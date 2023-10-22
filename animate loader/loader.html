@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .loader
+        {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 10px solid black;
+            border-top: 10px solid green;
+            animation: spinner 1s linear infinite;
+            
+        }
+
+        @keyframes spinner 
+        {
+            0% {transform: rotate(0deg);}
+            100% {transform: rotate(360deg);}
+        }
+    </style>
+
+    <h2>This is the Loading Animation</h2>
+    <div class="loader">
+        <div class="hi"></div>
+    </div>
+</body>
+</html>
